@@ -1,0 +1,15 @@
+### Creates a new customer entity
+POST http://localhost:8090/api/v1/customers
+Content-Type: application/json
+
+{
+  "firstname": "John",
+  "lastname": "Doe",
+  "email": "john@gmail.com",
+  "address": {
+    "street": "john doe street",
+    "houseNumber": "10",
+    "zipCode": "1008"
+  }
+}
+###
